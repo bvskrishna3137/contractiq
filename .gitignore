@@ -1,0 +1,22 @@
+# Secrets: never commit these
+.env
+*.pem
+*.key
+
+# Documents you process stay on your machine (the fictional sample is allowed)
+uploads/
+output/
+*.pdf
+!samples/fictional_rfp.pdf
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.DS_Store
+Thumbs.db

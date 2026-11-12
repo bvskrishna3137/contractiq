@@ -1,0 +1,713 @@
+{
+  "metadata": {
+    "source_file": "fictional_rfp.pdf",
+    "page_count": 8,
+    "mode": "rules",
+    "model": "",
+    "contractiq_version": ""
+  },
+  "terms": {
+    "solicitation_number": "FX-SAMPLE-26-R-0042",
+    "title": "Integrated Facilities Maintenance Services, Riverbend Campus",
+    "agency": "Example Federal Agency, Office of Facilities",
+    "contract_type": "FFP; T&M",
+    "naics": "561210",
+    "set_aside": "Total Small Business Set-Aside",
+    "period_of_performance": "One 12-month base period and four 12-month option periods",
+    "place_of_performance": "Riverbend Campus, Example City, TX",
+    "amounts": [
+      {
+        "page": 2,
+        "evidence": "The ceiling for CLIN 0003 is $250,000 per period of performance (not-to-exceed).",
+        "grounded": true,
+        "label": "ceiling",
+        "amount": 250000.0,
+        "raw": "$250,000"
+      },
+      {
+        "page": 2,
+        "evidence": "guarantees a minimum of $50,000 in orders under CLIN 0003",
+        "grounded": true,
+        "label": "minimum guarantee",
+        "amount": 50000.0,
+        "raw": "$50,000"
+      },
+      {
+        "page": 3,
+        "evidence": "any single repair expected to exceed $5,000",
+        "grounded": true,
+        "label": "approval threshold",
+        "amount": 5000.0,
+        "raw": "$5,000"
+      },
+      {
+        "page": 6,
+        "evidence": "general liability insurance of at least $2.5 million per occurrence",
+        "grounded": true,
+        "label": "insurance",
+        "amount": 2500000.0,
+        "raw": "$2.5 million"
+      },
+      {
+        "page": 6,
+        "evidence": "performance bond of $1,000,000",
+        "grounded": true,
+        "label": "bond",
+        "amount": 1000000.0,
+        "raw": "$1,000,000"
+      }
+    ]
+  },
+  "key_dates": [
+    {
+      "page": 1,
+      "evidence": "Issue date: December 1, 2026",
+      "grounded": true,
+      "label": "Issue date",
+      "date": "2026-12-01",
+      "time": "",
+      "raw": "December 1, 2026"
+    },
+    {
+      "page": 1,
+      "evidence": "Pre-proposal site visit: December 9, 2026, 10:00 AM CT",
+      "grounded": true,
+      "label": "Site visit",
+      "date": "2026-12-09",
+      "time": "10:00 AM CT",
+      "raw": "December 9, 2026"
+    },
+    {
+      "page": 1,
+      "evidence": "Questions due: December 15, 2026, 4:00 PM CT",
+      "grounded": true,
+      "label": "Questions due",
+      "date": "2026-12-15",
+      "time": "4:00 PM CT",
+      "raw": "December 15, 2026"
+    },
+    {
+      "page": 1,
+      "evidence": "Proposals due: January 22, 2027, 2:00 PM CT",
+      "grounded": true,
+      "label": "Proposals due",
+      "date": "2027-01-22",
+      "time": "2:00 PM CT",
+      "raw": "January 22, 2027"
+    },
+    {
+      "page": 1,
+      "evidence": "Anticipated award: March 1, 2027",
+      "grounded": true,
+      "label": "Anticipated award",
+      "date": "2027-03-01",
+      "time": "",
+      "raw": "March 1, 2027"
+    },
+    {
+      "page": 5,
+      "evidence": "begins on 04/01/2027",
+      "grounded": true,
+      "label": "Contract start",
+      "date": "2027-04-01",
+      "time": "",
+      "raw": "04/01/2027"
+    }
+  ],
+  "requirements": [
+    {
+      "page": 2,
+      "evidence": "Offerors shall propose a fixed monthly price for CLINs 0001 and 0002 and fully burdened hourly labor rates for CLIN 0003.",
+      "grounded": true,
+      "id": "R-001",
+      "text": "Offerors shall propose a fixed monthly price for CLINs 0001 and 0002 and fully burdened hourly labor rates for CLIN 0003.",
+      "obligation": "shall",
+      "party": "offeror",
+      "mandatory": true,
+      "category": "cost_price",
+      "section": "B.4",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "The Contractor shall provide all labor, supervision, materials and equipment necessary to perform facilities maintenance at the Riverbend Campus, comprising 14 buildings and approximately 620,000 square feet.",
+      "grounded": true,
+      "id": "R-002",
+      "text": "The Contractor shall provide all labor, supervision, materials and equipment necessary to perform facilities maintenance at the Riverbend Campus, comprising 14 buildings and approximately 620,000 square feet.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "technical",
+      "section": "C.1",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "The Contractor shall provide a full-time on-site Program Manager who is authorized to make binding decisions on behalf of the Contractor.",
+      "grounded": true,
+      "id": "R-003",
+      "text": "The Contractor shall provide a full-time on-site Program Manager who is authorized to make binding decisions on behalf of the Contractor.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "management",
+      "section": "C.2.1",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "The Program Manager must be available by telephone 24 hours a day, 7 days a week.",
+      "grounded": true,
+      "id": "R-004",
+      "text": "The Program Manager must be available by telephone 24 hours a day, 7 days a week.",
+      "obligation": "must",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "management",
+      "section": "C.2.2",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "The Contractor shall maintain a Quality Control Plan (QCP) and shall submit it to the Contracting Officer within 30 days after award.",
+      "grounded": true,
+      "id": "R-005",
+      "text": "The Contractor shall maintain a Quality Control Plan (QCP) and shall submit it to the Contracting Officer within 30 days after award.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "management",
+      "section": "C.2.3",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "The Contractor shall inspect each building monthly.",
+      "grounded": true,
+      "id": "R-006",
+      "text": "The Contractor shall inspect each building monthly.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "technical",
+      "section": "C.2.4",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "The Contractor shall record all findings in the Computerized Maintenance Management System (CMMS).",
+      "grounded": true,
+      "id": "R-007",
+      "text": "The Contractor shall record all findings in the Computerized Maintenance Management System (CMMS).",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "technical",
+      "section": "C.2.4",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "The Contractor shall perform preventive maintenance on HVAC, electrical, plumbing and fire-protection systems in accordance with manufacturer recommendations and the approved Preventive Maintenance Schedule (CDRL A003).",
+      "grounded": true,
+      "id": "R-008",
+      "text": "The Contractor shall perform preventive maintenance on HVAC, electrical, plumbing and fire-protection systems in accordance with manufacturer recommendations and the approved Preventive Maintenance Schedule (CDRL A003).",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "technical",
+      "section": "C.3.1",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "The Contractor shall respond to emergency service calls within 1 hour of notification and shall restore critical systems within 4 hours.",
+      "grounded": true,
+      "id": "R-009",
+      "text": "The Contractor shall respond to emergency service calls within 1 hour of notification and shall restore critical systems within 4 hours.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "technical",
+      "section": "C.3.2",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "Routine service calls shall be completed within 3 business days.",
+      "grounded": true,
+      "id": "R-010",
+      "text": "Routine service calls shall be completed within 3 business days.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "technical",
+      "section": "C.3.3",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "Emergency calls will be answered by a live dispatcher at all hours.",
+      "grounded": true,
+      "id": "R-011",
+      "text": "Emergency calls will be answered by a live dispatcher at all hours.",
+      "obligation": "will",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "technical",
+      "section": "C.3.4",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "The Government shall provide office space, utilities and access to the CMMS for the Contractor's on-site staff.",
+      "grounded": true,
+      "id": "R-012",
+      "text": "The Government shall provide office space, utilities and access to the CMMS for the Contractor's on-site staff.",
+      "obligation": "shall",
+      "party": "government",
+      "mandatory": true,
+      "category": "other",
+      "section": "C.3.5",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "The Contractor shall: (a) mow and edge all lawns at least weekly during the growing season; (b) clear snow and ice from walkways and parking areas within 6 hours of the end of a weather event; and (c) empty trash receptacles daily.",
+      "grounded": true,
+      "id": "R-013",
+      "text": "The Contractor shall: (a) mow and edge all lawns at least weekly during the growing season; (b) clear snow and ice from walkways and parking areas within 6 hours of the end of a weather event; and (c) empty trash receptacles daily.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "technical",
+      "section": "C.4.1",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "Custodial supplies must be environmentally preferable products in accordance with EPA guidelines.",
+      "grounded": true,
+      "id": "R-014",
+      "text": "Custodial supplies must be environmentally preferable products in accordance with EPA guidelines.",
+      "obligation": "must",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "technical",
+      "section": "C.4.2",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "Hazardous materials are prohibited on site without prior written approval from the Contracting Officer.",
+      "grounded": true,
+      "id": "R-015",
+      "text": "Hazardous materials are prohibited on site without prior written approval from the Contracting Officer.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "technical",
+      "section": "C.4.3",
+      "source": "rules"
+    },
+    {
+      "page": 3,
+      "evidence": "The Contractor shall obtain written approval from the Contracting Officer's Representative (COR) before beginning any single repair expected to exceed $5,000.",
+      "grounded": true,
+      "id": "R-016",
+      "text": "The Contractor shall obtain written approval from the Contracting Officer's Representative (COR) before beginning any single repair expected to exceed $5,000.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "cost_price",
+      "section": "C.4.4",
+      "source": "rules"
+    },
+    {
+      "page": 4,
+      "evidence": "The Contractor shall submit the Monthly Status Report (CDRL A001) by the fifth business day of each month.",
+      "grounded": true,
+      "id": "R-017",
+      "text": "The Contractor shall submit the Monthly Status Report (CDRL A001) by the fifth business day of each month.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "deliverable",
+      "section": "C.5.1",
+      "source": "rules"
+    },
+    {
+      "page": 4,
+      "evidence": "The Contractor shall report any injury, property damage or safety incident to the COR within 24 hours using the Incident Report (CDRL A004).",
+      "grounded": true,
+      "id": "R-018",
+      "text": "The Contractor shall report any injury, property damage or safety incident to the COR within 24 hours using the Incident Report (CDRL A004).",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "deliverable",
+      "section": "C.5.2",
+      "source": "rules"
+    },
+    {
+      "page": 4,
+      "evidence": "The Contractor should also provide an Annual Energy Report (CDRL A006) within 30 days after the end of each period of performance.",
+      "grounded": true,
+      "id": "R-019",
+      "text": "The Contractor should also provide an Annual Energy Report (CDRL A006) within 30 days after the end of each period of performance.",
+      "obligation": "should",
+      "party": "contractor",
+      "mandatory": false,
+      "category": "deliverable",
+      "section": "C.5.3",
+      "source": "rules"
+    },
+    {
+      "page": 5,
+      "evidence": "The Contractor shall submit the Transition Plan (CDRL A005) within 10 days after award.",
+      "grounded": true,
+      "id": "R-020",
+      "text": "The Contractor shall submit the Transition Plan (CDRL A005) within 10 days after award.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "deliverable",
+      "section": "F.2",
+      "source": "rules"
+    },
+    {
+      "page": 5,
+      "evidence": "Deliverables shall be submitted electronically in Microsoft Office or Adobe PDF format.",
+      "grounded": true,
+      "id": "R-021",
+      "text": "Deliverables shall be submitted electronically in Microsoft Office or Adobe PDF format.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "deliverable",
+      "section": "F.3",
+      "source": "rules"
+    },
+    {
+      "page": 6,
+      "evidence": "All Contractor personnel shall undergo a background check before being granted unescorted access to the Riverbend Campus.",
+      "grounded": true,
+      "id": "R-022",
+      "text": "All Contractor personnel shall undergo a background check before being granted unescorted access to the Riverbend Campus.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "security",
+      "section": "H.1",
+      "source": "rules"
+    },
+    {
+      "page": 6,
+      "evidence": "Contractor personnel must be U.S. citizens or lawful permanent residents.",
+      "grounded": true,
+      "id": "R-023",
+      "text": "Contractor personnel must be U.S. citizens or lawful permanent residents.",
+      "obligation": "must",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "security",
+      "section": "H.2",
+      "source": "rules"
+    },
+    {
+      "page": 6,
+      "evidence": "Each employee must wear a Government-issued identification badge at all times while on the campus.",
+      "grounded": true,
+      "id": "R-024",
+      "text": "Each employee must wear a Government-issued identification badge at all times while on the campus.",
+      "obligation": "must",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "security",
+      "section": "H.3",
+      "source": "rules"
+    },
+    {
+      "page": 6,
+      "evidence": "A satisfactory background check is a condition of site access for every employee.",
+      "grounded": true,
+      "id": "R-025",
+      "text": "A satisfactory background check is a condition of site access for every employee.",
+      "obligation": "required",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "security",
+      "section": "H.4",
+      "source": "rules"
+    },
+    {
+      "page": 6,
+      "evidence": "The Contractor shall maintain general liability insurance of at least $2.5 million per occurrence.",
+      "grounded": true,
+      "id": "R-026",
+      "text": "The Contractor shall maintain general liability insurance of at least $2.5 million per occurrence.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "legal_clause",
+      "section": "H.5",
+      "source": "rules"
+    },
+    {
+      "page": 6,
+      "evidence": "The Contractor shall furnish a performance bond of $1,000,000 within 15 days after award.",
+      "grounded": true,
+      "id": "R-027",
+      "text": "The Contractor shall furnish a performance bond of $1,000,000 within 15 days after award.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "legal_clause",
+      "section": "H.6",
+      "source": "rules"
+    },
+    {
+      "page": 6,
+      "evidence": "The Contractor shall comply with the Service Contract Labor Standards (FAR 52.222-41) and the wage determination attached to this solicitation.",
+      "grounded": true,
+      "id": "R-028",
+      "text": "The Contractor shall comply with the Service Contract Labor Standards (FAR 52.222-41) and the wage determination attached to this solicitation.",
+      "obligation": "shall",
+      "party": "contractor",
+      "mandatory": true,
+      "category": "legal_clause",
+      "section": "H.7",
+      "source": "rules"
+    },
+    {
+      "page": 7,
+      "evidence": "Proposals shall be received no later than 2:00 PM Central Time on January 22, 2027.",
+      "grounded": true,
+      "id": "R-029",
+      "text": "Proposals shall be received no later than 2:00 PM Central Time on January 22, 2027.",
+      "obligation": "shall",
+      "party": "offeror",
+      "mandatory": true,
+      "category": "proposal_instruction",
+      "section": "L.1",
+      "source": "rules"
+    },
+    {
+      "page": 7,
+      "evidence": "Offerors must submit proposals electronically through the Example Agency Proposal Portal.",
+      "grounded": true,
+      "id": "R-030",
+      "text": "Offerors must submit proposals electronically through the Example Agency Proposal Portal.",
+      "obligation": "must",
+      "party": "offeror",
+      "mandatory": true,
+      "category": "proposal_instruction",
+      "section": "L.2",
+      "source": "rules"
+    },
+    {
+      "page": 7,
+      "evidence": "Offerors are required to submit proposals in four separate volumes: Volume I, Technical Approach; Volume II, Management and Staffing Plan; Volume III, Past Performance; and Volume IV, Price.",
+      "grounded": true,
+      "id": "R-031",
+      "text": "Offerors are required to submit proposals in four separate volumes: Volume I, Technical Approach; Volume II, Management and Staffing Plan; Volume III, Past Performance; and Volume IV, Price.",
+      "obligation": "required",
+      "party": "offeror",
+      "mandatory": true,
+      "category": "proposal_instruction",
+      "section": "L.3",
+      "source": "rules"
+    },
+    {
+      "page": 7,
+      "evidence": "Volume I shall not exceed 25 pages, excluding resumes and cover pages.",
+      "grounded": true,
+      "id": "R-032",
+      "text": "Volume I shall not exceed 25 pages, excluding resumes and cover pages.",
+      "obligation": "shall",
+      "party": "offeror",
+      "mandatory": true,
+      "category": "proposal_instruction",
+      "section": "L.4",
+      "source": "rules"
+    },
+    {
+      "page": 7,
+      "evidence": "Offerors shall provide at least three past performance references for contracts of similar size and scope completed within the last five years.",
+      "grounded": true,
+      "id": "R-033",
+      "text": "Offerors shall provide at least three past performance references for contracts of similar size and scope completed within the last five years.",
+      "obligation": "shall",
+      "party": "offeror",
+      "mandatory": true,
+      "category": "past_performance",
+      "section": "L.5",
+      "source": "rules"
+    },
+    {
+      "page": 7,
+      "evidence": "Questions about this solicitation must be submitted in writing by December 15, 2026, 4:00 PM CT.",
+      "grounded": true,
+      "id": "R-034",
+      "text": "Questions about this solicitation must be submitted in writing by December 15, 2026, 4:00 PM CT.",
+      "obligation": "must",
+      "party": "offeror",
+      "mandatory": true,
+      "category": "proposal_instruction",
+      "section": "L.6",
+      "source": "rules"
+    },
+    {
+      "page": 8,
+      "evidence": "Offerors must receive an acceptable rating on Factor 1 to be eligible for award.",
+      "grounded": true,
+      "id": "R-035",
+      "text": "Offerors must receive an acceptable rating on Factor 1 to be eligible for award.",
+      "obligation": "must",
+      "party": "offeror",
+      "mandatory": true,
+      "category": "other",
+      "section": "M.3",
+      "source": "rules"
+    }
+  ],
+  "evaluation_factors": [
+    {
+      "page": 8,
+      "evidence": "Factor 1 – Technical Approach",
+      "grounded": true,
+      "name": "Technical Approach",
+      "importance": "significantly more important than Factor 2",
+      "subfactors": [
+        "Preventive Maintenance Approach",
+        "Emergency Response and Continuity"
+      ]
+    },
+    {
+      "page": 8,
+      "evidence": "Factor 2 – Management and Staffing Plan",
+      "grounded": true,
+      "name": "Management and Staffing Plan",
+      "importance": "more important than Factor 3",
+      "subfactors": [
+        "Program Manager Qualifications",
+        "Transition-In Plan"
+      ]
+    },
+    {
+      "page": 8,
+      "evidence": "Factor 3 – Past Performance",
+      "grounded": true,
+      "name": "Past Performance",
+      "importance": "",
+      "subfactors": []
+    },
+    {
+      "page": 8,
+      "evidence": "Factor 4 – Price",
+      "grounded": true,
+      "name": "Price",
+      "importance": "",
+      "subfactors": []
+    }
+  ],
+  "deliverables": [
+    {
+      "page": 5,
+      "evidence": "A001 | Monthly Status Report | Monthly | 5th business day of each month",
+      "grounded": true,
+      "id": "A001",
+      "title": "Monthly Status Report",
+      "frequency": "Monthly",
+      "due": "5th business day of each month"
+    },
+    {
+      "page": 5,
+      "evidence": "A002 | Quality Control Plan | Once | 30 days after award",
+      "grounded": true,
+      "id": "A002",
+      "title": "Quality Control Plan",
+      "frequency": "Once",
+      "due": "30 days after award"
+    },
+    {
+      "page": 5,
+      "evidence": "A003 | Preventive Maintenance Schedule | Annually | 15 days before each period",
+      "grounded": true,
+      "id": "A003",
+      "title": "Preventive Maintenance Schedule",
+      "frequency": "Annually",
+      "due": "15 days before each period"
+    },
+    {
+      "page": 5,
+      "evidence": "A004 | Incident Report | As required | Within 24 hours of the incident",
+      "grounded": true,
+      "id": "A004",
+      "title": "Incident Report",
+      "frequency": "As required",
+      "due": "Within 24 hours of the incident"
+    },
+    {
+      "page": 5,
+      "evidence": "A005 | Transition Plan | Once | 10 days after award",
+      "grounded": true,
+      "id": "A005",
+      "title": "Transition Plan",
+      "frequency": "Once",
+      "due": "10 days after award"
+    },
+    {
+      "page": 5,
+      "evidence": "A006 | Annual Energy Report | Annually | 30 days after each period",
+      "grounded": true,
+      "id": "A006",
+      "title": "Annual Energy Report",
+      "frequency": "Annually",
+      "due": "30 days after each period"
+    }
+  ],
+  "clins": [
+    {
+      "page": 2,
+      "evidence": "CLIN 0001 - Base facility maintenance services (monthly) - Type: FFP",
+      "grounded": true,
+      "number": "0001",
+      "description": "Base facility maintenance services (monthly)",
+      "type": "FFP"
+    },
+    {
+      "page": 2,
+      "evidence": "CLIN 0002 - Grounds and custodial services (monthly) - Type: FFP",
+      "grounded": true,
+      "number": "0002",
+      "description": "Grounds and custodial services (monthly)",
+      "type": "FFP"
+    },
+    {
+      "page": 2,
+      "evidence": "CLIN 0003 - Unscheduled repairs and emergency response - Type: T&M",
+      "grounded": true,
+      "number": "0003",
+      "description": "Unscheduled repairs and emergency response",
+      "type": "T&M"
+    },
+    {
+      "page": 2,
+      "evidence": "CLIN 0004 - Transition-in services (one time) - Type: FFP",
+      "grounded": true,
+      "number": "0004",
+      "description": "Transition-in services (one time)",
+      "type": "FFP"
+    },
+    {
+      "page": 2,
+      "evidence": "CLIN 0005 - Data items (CDRLs) - Type: NSP",
+      "grounded": true,
+      "number": "0005",
+      "description": "Data items (CDRLs)",
+      "type": "NSP"
+    }
+  ],
+  "warnings": []
+}

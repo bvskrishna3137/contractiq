@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contractiq"
+version = "0.1.0"
+description = "Turn federal solicitation PDFs into a reviewable compliance matrix: requirements, key dates, evaluation factors, CLINs and CDRLs, each with page-level evidence."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["pydantic>=2.5", "pdfplumber>=0.10", "openpyxl>=3.1"]
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.40"]
+app = ["streamlit>=1.30", "pandas>=2.0", "fastapi>=0.110", "uvicorn>=0.27", "python-multipart>=0.0.9"]
+dev = ["pytest>=7", "httpx>=0.25", "reportlab>=4"]
+
+[project.scripts]
+contractiq = "contractiq.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
